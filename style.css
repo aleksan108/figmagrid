@@ -1,0 +1,123 @@
+@font-face {
+    font-family: Oswald;
+    src: url(/assets/fonts/Chronicle\ Display\ Semibold.otf)
+}
+
+.main{
+    width: 1920px;
+    height: 4600px;
+    background: url(/assets/images/back3.svg) no-repeat;
+    background-size: 100%;
+    font-family: 'Oswald';
+    display: grid;
+    grid-template-columns: repeat(12, auto);
+    grid-gap:5px;
+    color: white;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: 1fr 10fr 10fr 50fr;
+    position: relative;
+    top: 90px;
+    left: 90px;
+    width: 1740px;
+    height: 4100px;
+    padding: 40px 80px 40px 80px;
+    box-sizing: border-box;
+}
+
+.firstrow{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    left: 80px;
+    top: 64px;
+    align-items: center;
+    height: 38px;
+}
+
+.logotitle{
+    font-size: 32px;
+}
+
+.menuitems{
+    display: grid;
+    font-size: 18px;
+    justify-self: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    justify-content: space-around;
+}
+
+.accountlink{
+    font-size: 17px;
+    justify-self: end;
+
+}
+
+.secondrow{
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
+    justify-content: space-between;
+}
+
+.followlinks{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 173px;
+    padding: 2px;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.content{
+    display: grid;
+    align-self: center;
+    justify-self: center;
+}
+
+.slider{
+    display: grid;
+    align-self: center;
+    justify-self: start;
+
+}
+
+.forthrow{
+    display: grid;
+    grid-template-rows: 5fr 5fr 5fr 2fr;
+    justify-content: space-around;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 6.5fr 4fr;
+    justify-content: center;
+}
+
+.sometext{
+    font-size: 18px;
+    width: 303px;
+}
+
+.more{
+    display: grid;
+    grid-template-columns: 1.6fr 1fr;
+    justify-content: space-between;
+    grid-gap: 100px
+}
+
+.morecontent{
+    display: grid;
+    grid-template-rows: 2fr repeat(5, 1fr);
+    font-size: 18px;
+
+}
+
+.moreheader{
+    color: #FBD784;
+    font-size: 24px;
+}
+
